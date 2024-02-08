@@ -1,7 +1,7 @@
 from app import app
 from flask import request, send_from_directory
 from app.config import hashing_algorithm
-from .classes import File
+from app.classes import File
 from json import dumps
 
 
